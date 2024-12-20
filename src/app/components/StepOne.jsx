@@ -1,17 +1,4 @@
-// export const StepOne=({setCurrentStep,onChange})=>{
-//     return (
-//         <div className="flex flex-col p-8">
-//             <b className="px-10"> Step 1</b>
-//             <label htmlFor="firstName">FirstName</label>
-//             <input className="border" value={form.firstName}/>
 
-//             <label htmlFor="lastName">LastName</label>
-//             <input className="border" value={form.lastName}/>
-
-//             <button onClick={()=>setCurrentStep(2)}>Next</button>
-//         </div>
-//     )
-// }
 
 import { IoIosArrowForward} from "react-icons/io";
 import{useState, usestate} from'react'
@@ -37,7 +24,7 @@ export default function Card ({Next,FormData, handleInputChange}){
                     <p className="text-[18px] text-[#8E8E8E]">Please provide all current information accurately.</p>
                 </div>
                 <div className=" w-[416px] h-[230px]  my-[25px] flex-col justify-between">
-                    <div className="w-[416px] h- [68px]">
+                    <div className="w-[416px] h-[68px]">
                         <p className="font-semibold my-[2px]">First name </p>
                         <input
                         value={FormData.firstName}
