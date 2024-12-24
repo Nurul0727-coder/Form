@@ -1,7 +1,8 @@
 "use client";
 import React from 'react';
-import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
 export function StepThree({ Next, Back, formData, handleInputChange }) {
   return (
     <div className="w-[480px] h-[655px] bg-white rounded-md flex justify-center relative">

@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
-import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
+
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
 
 export default StepTwo;
 export function StepTwo({ Next, Back, formData, handleInputChange }) {
