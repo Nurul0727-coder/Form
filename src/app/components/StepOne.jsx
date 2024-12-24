@@ -1,4 +1,4 @@
-// stepone.jsx
+
 import React from "react";
 
 const Card = ({ Next, formData, handleInputChange }) => {
@@ -18,7 +18,7 @@ const Card = ({ Next, formData, handleInputChange }) => {
             <input
               value={formData.firstName}
               onChange={(e) => handleInputChange("firstName", e.target.value)}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2 "
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2  text-[#121316]"
               placeholder="Enter your first name"
             />
           </div>
@@ -27,7 +27,7 @@ const Card = ({ Next, formData, handleInputChange }) => {
               <input
                 value={formData.lastName}
                 onChange={(e) => handleInputChange("lastName", e.target.value)}
-                className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2"
+                className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2  text-[#121316]"
                 placeholder="Enter your last name"
               />
             </div>
@@ -36,7 +36,7 @@ const Card = ({ Next, formData, handleInputChange }) => {
               <input
                 value={formData.username}
                 onChange={(e) => handleInputChange("username", e.target.value)}
-                className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md  pl-2"
+                className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md  pl-2  text-[#121316]"
                 placeholder="Enter your username"
               />
             </div>

@@ -19,7 +19,7 @@ export function StepTwo({ Next, Back, formData, handleInputChange }) {
             <input
               value={formData.email}
               onChange={(e) => handleInputChange("email", e.target.value)}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2"
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2 text-[#121316]"
               placeholder="Enter your email"
             />
           </div>
@@ -28,7 +28,7 @@ export function StepTwo({ Next, Back, formData, handleInputChange }) {
             <input
               value={formData.phoneNumber}
               onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2"
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2  text-[#121316]"
               placeholder="Enter your phone number"
             />
           </div>
@@ -37,7 +37,7 @@ export function StepTwo({ Next, Back, formData, handleInputChange }) {
             <input
               value={formData.password}
               onChange={(e) => handleInputChange("password", e.target.value)}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2"
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2  text-[#121316]"
               placeholder="Enter your password"
               type="password"
             />
@@ -47,7 +47,7 @@ export function StepTwo({ Next, Back, formData, handleInputChange }) {
             <input
               value={formData.confirmPassword}
               onChange={(e) => handleInputChange("confirmPassword", e.target.value)}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2"
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2  text-[#121316]"
               placeholder="Enter your password again!"
               type="password"
             />

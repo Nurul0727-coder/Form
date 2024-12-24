@@ -17,7 +17,7 @@ export function StepThree({ Next, Back, formData, handleInputChange }) {
             <input
               value={formData.dob}
               onChange={(e) => handleInputChange("dob", e.target.value)}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2"
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md pl-2  text-[#121316]"
               placeholder="Enter your date of birth"
             />
           </div>
@@ -26,7 +26,7 @@ export function StepThree({ Next, Back, formData, handleInputChange }) {
             <input
               type="file"
               onChange={(e) => handleInputChange("profileImage", e.target.files[0])}
-              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md"
+              className="w-[416px] h-[44px] p-2 border-[1px] border-[#CBD5E1] rounded-md "
             />
           </div>
         </div>
